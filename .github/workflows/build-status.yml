@@ -71,6 +71,3 @@ jobs:
           git add versioned_sidebars/ versioned_docs/ versions.json
           git commit -m "docs: Add new version ${{ steps.version.outputs.new_version }}"
           git push
-
-      - name: Build Project
-        run: yarn build
