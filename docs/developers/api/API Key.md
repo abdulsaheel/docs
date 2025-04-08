@@ -14,7 +14,7 @@ API keys can be generated from the [Dev Dashboard](https://dev.garden.finance/).
 
 ![Dev Dashboard Landing page](../images/dev-dashboard/dashboard-landing-image.png)
 
-- Click on `Create new app` button to open modal. Enter your app name (here "demo app") to register it.
+- Click on `Create new app` button to open modal. Enter your app name (here "demo app") and app icon to register it.
 
 ![create your app modal](../images/dev-dashboard/create-app-modal.png)
 
