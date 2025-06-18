@@ -7,6 +7,9 @@ WORKDIR /app
 # Install build tools for native deps (if any)
 RUN apk add --no-cache python3 make g++ git
 
+# Enable Corepack to use the right version of Yarn
+RUN corepack enable && corepack prepare yarn@4.5.1 --activate
+
 # Pre-cache dependencies
 COPY package.json yarn.lock ./
 RUN yarn install --frozen-lockfile
